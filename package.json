@@ -1,6 +1,6 @@
 {
   "name": "@tetherto/miningos-tpl-wrk-sensor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "MiningOS Template Worker Sensor",
   "keywords": [
     "tether"
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/tetherto/miningos-tpl-wrk-sensor#readme",
   "bugs": {
     "url": "https://github.com/tetherto/miningos-tpl-wrk-sensor/issues"
-  },  
+  },
   "engines": {
     "node": ">=20"
   },
@@ -23,8 +23,8 @@
     "workers/",
     "tests/"
   ],
-  "main": "worker.js",    
-  "type": "commonjs",  
+  "main": "worker.js",
+  "type": "commonjs",
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
